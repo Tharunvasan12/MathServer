@@ -106,7 +106,7 @@ urlpatterns = [
     path('admin/', admin.site.urls), 
     path('power/',views.power,name="calculatepower"),
     path('',views.power,name="calculatepower")]
-````
+```
 
 ## SERVER SIDE PROCESSING:
 ![alt text](<Screenshot 2024-11-28 224639.png>)
