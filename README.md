@@ -105,7 +105,7 @@ from ajith import views
 urlpatterns = [ 
     path('admin/', admin.site.urls), 
     path('power/',views.power,name="calculatepower"),
-    path('',views.power,name="calculatepower")
+    path('',views.power,name="calculatepower")]
 ````
 
 ## SERVER SIDE PROCESSING:
